@@ -9,4 +9,5 @@ VOLUME /app/config
 
 WORKDIR /go/bin
 
-ENTRYPOINT ["rclone", "--config /app/config/rclone.conf"]
+CMD ["rclone", "--config /app/config/rclone.conf"]
+ENTRYPOINT ["rclone"]
