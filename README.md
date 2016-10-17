@@ -7,6 +7,7 @@ Usage
 docker run --rm -v "[CONFIG LOCATION]":/app/config -it rrspyder/docker-rclone --config /app/config/rclone.conf config
 
 Then you will need to do the provided
+
 docker run --rm -it rrspyder/docker-rclone authorize "[CLOUD STORAGE PROVIDER]"
 
 
